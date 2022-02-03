@@ -18,8 +18,9 @@ body {
     url(./images/bg-pattern-bottom.svg);
   background-color: var(--dark_cyan);
   background-repeat: no-repeat, no-repeat;
-  background-size: contain, contain;
-  background-position: top left, bottom right;
+  /* background-size: contain, contain; */
+  /* background-position: top left, bottom right; */
+  background-position: right calc(50vw - 5%) bottom 50vh, left calc(50vw - 10%) top 50vh;
 }
 :root {
   --dark_cyan: hsl(185, 75%, 39%);
